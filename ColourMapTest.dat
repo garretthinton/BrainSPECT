@@ -1,0 +1,8 @@
+6
+G4_AIR                    0.0     0.0     0.0     1.0
+G4_LEAD_OXIDE             1.0     0.0     0.0     1.0
+G4_TISSUE_SOFT_ICRP       0.5     0.5     1.0     1.0
+G4_BRAIN_ICRP             0.0     1.0     0.0     1.0
+G4_BONE_CORTICAL_ICRP     1.0     1.0     1.0     1.0
+G4_LUNG_ICRP              0.0     0.0     0.0     0.0
+material        red     green   blue    opacity

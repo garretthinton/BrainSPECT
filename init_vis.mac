@@ -1,0 +1,29 @@
+# Macro file for the initialization of example B3
+# in interactive session
+#
+# Set some default verbose
+#
+/control/verbose 2
+/control/saveHistory
+/run/verbose 2
+#
+# Change the default number of threads (in multi-threaded mode)
+#/run/numberOfThreads 4
+#
+# Initialize kernel
+/run/initialize
+#
+# Visualization setting
+
+#/phantom/numVoxels 256 256 900
+#/phantom/size 40.96  40.96  180 cm
+#/phantom/materials ColourMap.dat
+#/phantom/materialPhantom Adam_GEANT.dat
+#/control/execute vis.mac
+
+
+#/phantom/numVoxels 10 10 10
+#/phantom/size 12  12  12 cm
+#/phantom/materials ColourMapTest.dat
+#/phantom/materialPhantom BinaryPhantom.dat
+/control/execute vis.mac
